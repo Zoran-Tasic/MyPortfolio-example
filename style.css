@@ -3,6 +3,13 @@
     --orange: #ff5c1f;
     --black: #000;
     --white: #fff;
+    --gray: #e4e4e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -124,4 +131,17 @@ skills
 
 .skills p {
     font-size: .8rem;
+}
+
+
+/********************
+portfolio
+********************/
+
+.portfolio {
+    background: var(--gray);
+}
+
+.portfolio img {
+    width: 100%;
 }
