@@ -145,3 +145,22 @@ portfolio
 .portfolio img {
     width: 100%;
 }
+
+
+/******************
+footer
+******************/
+
+footer {
+    background: var(--orange);
+    color: var(--black);
+}
+
+footer .underline {
+    background: var(--black);
+}
+
+footer i {
+    font-size: 2rem;
+    padding: 0 10px;
+}
