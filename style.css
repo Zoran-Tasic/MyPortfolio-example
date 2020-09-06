@@ -23,6 +23,14 @@ a {
     font-family: 'Kalam', cursive;
 }
 
+.underline {
+    display: block;
+    width: 10%;
+    height: 7px;
+    background: var(--orange);
+    margin: 0 auto;
+}
+
 
 /*******************
 nav
@@ -80,14 +88,6 @@ interests
     font-weight: 500;
 }
 
-.interests .underline {
-    display: block;
-    width: 10%;
-    height: 7px;
-    background: var(--orange);
-    margin: 0 auto;
-}
-
 .interests .card-body .underline {
     width: 20%;
     height: 4px;
@@ -104,5 +104,24 @@ interests
     background: var(--orange);
     padding: 5px;
     font-weight: 700;
+    font-size: .8rem;
+}
+
+
+/********************
+skills
+********************/
+
+.skills {
+    background: var(--black);
+    color: var(--white);
+}
+
+.skills i {
+    font-size: 3rem;
+    color: var(--orange);
+}
+
+.skills p {
     font-size: .8rem;
 }
