@@ -4,6 +4,7 @@
     --black: #000;
     --white: #fff;
     --gray: #e4e4e4;
+    --transition: .4s ease;
 }
 
 * {
@@ -80,6 +81,13 @@ header hgroup button {
     border: none;
     padding: 7px 35px;
     font-family: 'Kalam', cursive;
+}
+
+header hgroup button:hover {
+    background: var(--white);
+    color: var(--orange);
+    border: 1px solid var(--black);
+    transition: var(--transition);
 }
 
 
@@ -162,5 +170,11 @@ footer .underline {
 
 footer i {
     font-size: 2rem;
+    color: var(--black);
     padding: 0 10px;
+}
+
+footer i:hover {
+    color: var(--gray);
+    transition: var(--transition);
 }
