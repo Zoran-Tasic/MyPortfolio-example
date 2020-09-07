@@ -78,7 +78,7 @@ header hgroup p {
 header hgroup button {
     background: var(--orange);
     color: var(--white);
-    border: none;
+    border: 1px solid transparent;
     padding: 7px 35px;
     font-family: 'Kalam', cursive;
 }
@@ -86,8 +86,9 @@ header hgroup button {
 header hgroup button:hover {
     background: var(--white);
     color: var(--orange);
-    border: 1px solid var(--black);
+    border: 1px solid var(--orange);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 
@@ -177,4 +178,9 @@ footer i {
 footer i:hover {
     color: var(--gray);
     transition: var(--transition);
+    cursor: pointer;
+}
+
+.portfolio .row .col-md-6 {
+    padding: 0;
 }
